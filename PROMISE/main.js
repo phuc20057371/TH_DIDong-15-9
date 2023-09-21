@@ -1,8 +1,6 @@
 var promise = new Promise(function(resolve, reject) {
-    resolve(); // Thực hiện giải quyết thành công ngay lập tức
+    resolve();
 });
-
-
 promise.then(
     function () {
         console.log('1!');
